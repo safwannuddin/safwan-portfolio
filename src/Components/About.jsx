@@ -16,15 +16,14 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
 
-const imageAltText = "purple and blue abstract background";
+
 
 /**
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I'm a Computer Science undergraduate passionate about crafting intuitive user interfaces and developing innovative software solutions with a creative and problem-solving mindset.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
@@ -33,10 +32,14 @@ const description =
 const skillsList = [
   "Web design",
   "User experience",
-  "Inclusive design",
-  "Focus group testing",
+  "Front-end development",
+  "React",
+  "HTML, CSS, JavaScript",
   "Mobile user interfaces",
   "Graphic design",
+  "Data analytics",
+  "Problem-solving",
+  "Digital marketing",
 ];
 
 /**
@@ -45,12 +48,12 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I'm driven by a passion for solving challenges through innovative solutions. Leveraging my UI/UX and development skills, I constantly explore new approaches to make technology more intuitive and accessible for everyone.";
+
 
 const About = () => {
   return (
     <section className="padding" id="about">
-      <img className="background" src={image} alt={imageAltText} />
       <div
         style={{
           backgroundColor: "white",
